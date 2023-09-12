@@ -1,0 +1,52 @@
+#root {
+  padding: 2rem;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  padding: 2em;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.total {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.total div {
+  font-size: 16px;
+  margin: 0 10px;
+}
+.count {
+  background-color: #faebd7;
+  padding: 0.5rem;
+  width: 250px;
+  text-align: center;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+.action-button {
+  margin: 45px 10px;
+  outline: none;
+  border: none;
+}
+.inc {
+  background-color: #0c8f15;
+}
+.dec {
+  background-color: #8f0c0c;
+}
+.ib-10 {
+  background-color: #171d8f;
+}
+.db-10 {
+  background-color: #db8813;
+}
